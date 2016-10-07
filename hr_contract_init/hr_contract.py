@@ -94,7 +94,7 @@ class contract_init(models.Model):
 
         users_obj = self.pool.get('res.users')
 
-        if users_obj.has_group(cr, uid, 'base.group_hr_director'):
+        if users_obj.has_group(cr, uid, 'hr.group_hr_director'):
             domain = [('state', 'in', ['draft'])]
             return domain
 

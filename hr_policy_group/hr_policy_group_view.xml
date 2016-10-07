@@ -5,7 +5,7 @@
         <!-- Policy Groups Configuration Submenu -->
         <menuitem id="menu_hr_policy_configuration"
             name="Policies"
-            parent="hr.menu_hr_configuration"
+            parent="hr.menu_human_resources_configuration"
             groups="hr_security.group_payroll_manager" sequence="40"/>
         
         <!-- Policy Group -->

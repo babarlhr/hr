@@ -7,7 +7,7 @@
         <field name="inherit_id" ref="hr.view_employee_form"/>
         <field name="arch" type="xml">
             <notebook position="inside">
-                <page string="Languages" groups="base.group_hr_user">
+                <page string="Languages" groups="hr.group_hr_user">
                     <field name="language_ids" nolabel="1" colspan="4">
                         <tree string="Language" editable="bottom">
                             <field name="name"/>
@@ -68,7 +68,7 @@
     </record>
 
     <menuitem name="Languages"
-              parent="hr.menu_hr_configuration"
+              parent="hr.menu_human_resources_configuration"
               id="menu_open_view_language_form"
               action="open_view_language_form"/>
 
